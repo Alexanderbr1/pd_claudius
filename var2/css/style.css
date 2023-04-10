@@ -44,7 +44,7 @@ h3 {
 /* Header styles start */
 
 .header {
-    background: linear-gradient(180deg, #A1D1ED 31.56%, #8CC5FF 100%);
+    background: linear-gradient(180deg, #0D3D30 26.87%, #F0F1AC 100%);
     top: 0;
     left: 0;
     width: 100%;
@@ -70,7 +70,7 @@ h3 {
 }
 
 .contacts_link {
-    color: #633C3C;
+    color: white;;
 }
 
 .contacts_link:hover {
@@ -82,23 +82,24 @@ h3 {
 /* Main styles start */
 
 .btn-burger-menu {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
 }
 
 .btn-home-page {
-    background-color: #e9f7ff;
+    background-color: rgba(255, 255, 255, 0.8);
     border: none;
 }
 
 .btn-mail {
-    background-color: #e9f7ff;
+    background-color: rgba(255, 255, 255, 0.8);
     border: none;
     margin-left: 1700px;
 }
 
 .bonuses {
     /* padding-top: 117px; */
-    background-color: #e9f7ff;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .bonuses__wrapper {
@@ -110,8 +111,10 @@ h3 {
 .bonuses__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
-    background: linear-gradient(81.76deg, #768CEB 26.48%, #4BC0FF 55.96%, #6BDEFA 68.47%);
+    background: linear-gradient(81.76deg, #98B188 26.48%, #C8CA81 55.96%, #E2E0A8 68.47%);
     border: 4px solid #0C2A22;
     border-radius: 81px;
     padding-top: 38px;
@@ -124,7 +127,7 @@ h3 {
     width: 440px;
     height: 563px;
     background-color: rgba(255, 255, 255, 0.8);
-    border: 4px solid #11414D;
+    border: 4px solid #9F6443;
     border-radius: 69px;
 }
 
@@ -138,7 +141,7 @@ h3 {
     color: #070707;
     font-size: 30px;
     line-height: 29px;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #9F6443;
     padding: 21px;
 }
 
@@ -158,7 +161,8 @@ h3 {
 
 .btn {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0);
+    border: 3px solid #012034;
     padding: 24px 48px;
     border-radius: 25px;
     font-size: 20px;
@@ -192,7 +196,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6ADEF9;
+    background-color: #E2E0A8;
     width: 209px;
     height: 72px;
     border: 2px solid #000;
@@ -211,7 +215,8 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1500px) {
-    .under-elements__available-bonuses { margin-left: 300px; }
+    .under-elements__available-bonuses { margin-left: 100px;}
+    .btn-mail {margin-left: 1000px;}
 }
 
 /* Main styles end */
